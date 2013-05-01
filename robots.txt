@@ -1,0 +1,2 @@
+User-agent: * # applies to all robots 
+Disallow: / # intended to block all files in the directory named "help" 
